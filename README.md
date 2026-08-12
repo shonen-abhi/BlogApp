@@ -1,18 +1,40 @@
-This repository contains the source code for the Django BloggApp. This is a real-world, feature-rich blogging system — from models, templates and forms to permissions, dashboards and deployment
+# Django BloggApp
 
-Features implemented
-Multi-role system (Admin / Manager / Editor / Author)
-Create / Read / Update / Delete (CRUD) for posts & categories
-Unique slug generation & prepopulation
-Media (image) upload & configuration
-Comment system (only authenticated users can comment)
-Manager & Editor dashboards with counts and tables
-Granular permission checks (using Django Groups & Permissions + custom checks)
-Search feature with retained search term in textbox
-Deployment on PythonAnywhere
+A feature-rich blogging platform built with Django, implementing role-based access control, CRUD operations, comments, dashboards, search, media uploads, and deployment.
 
-Requirements
-Python 3.10+ (recommended)
-Django 4.x (see requirements.txt) - always use latest version
-A virtual environment tool (venv / virtualenv)
-PostgreSQL / MySQL or SQLite for development
+## Features
+
+- Multi-role system: Admin, Manager, Editor, Author
+- CRUD operations for posts and categories
+- Unique slug generation and prepopulation
+- Image/media upload
+- Comment system for authenticated users
+- Manager and Editor dashboards
+- Role-based permissions using Django Groups & Permissions
+- Search functionality with retained search terms
+- Deployed on PythonAnywhere
+
+## Tech Stack
+
+- Python
+- Django
+- HTML
+- CSS
+- Bootstrap
+- SQLite / PostgreSQL / MySQL
+- PythonAnywhere
+
+## Requirements
+
+- Python 3.10+
+- Django (version specified in `requirements.txt`)
+- Virtual environment (`venv` / `virtualenv`)
+- SQLite, PostgreSQL, or MySQL
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
